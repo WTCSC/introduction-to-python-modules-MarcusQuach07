@@ -2,7 +2,7 @@ import text_utils
 # Defines average
 def average():
     # Creates a variable named file to open filename in read mode
-    file = with open(sample.txt, 'r'):
+    file = open(filename, 'r'):
         # Creates a variable named lines to read the lines in the file
         lines = file.readlines()
         # Sets line_count and word_count to zero for possible array and list
